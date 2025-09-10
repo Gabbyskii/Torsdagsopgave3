@@ -24,7 +24,7 @@ void setup() {
   println("Sum of 10 + 5 = " + sum);
   
   // 2.c Call UpperCase method
-  String greeting = "hello world";
+  String greeting = "hello";
   String uppercaseText = makeUpperCase(greeting);
   println("Original: " + greeting);
   println("Uppercase: " +uppercaseText);
@@ -35,8 +35,8 @@ void setup() {
   boolean isFirstUpper1 = startsUpperCase(Hello1);
   boolean isFirstUpper2 = startsUpperCase(hello2);
   
-  println("'" + Hello1 + "' starts with uppercase: " + isFirstUpper1);
-  println("'" + hello2 + "' starts with uppercase: " + isFirstUpper2);
+  println(Hello1 + " starts with uppercase: " + isFirstUpper1);
+  println(hello2 + " starts with uppercase: " + isFirstUpper2);
 }
 
 //2.b Method that receives two integers and returns their sum
