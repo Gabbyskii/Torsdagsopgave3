@@ -1,13 +1,13 @@
+// 3.c - Declare the class Student and add 4 instance variables
 class Student {
-  // Instance variables
   String name;
   int age;
   boolean isFemale;
   String datamatikerTeam;
   
-  // Constructor
+ // 3.d - Add constructor with 4 parameters
   Student(String tmpName, int tmpAge, boolean tmpIsFemale, String tmpDatamatikerTeam) {
-    // Assign parameter values to instance variables
+ // 3.e Assign parameter values to instance variables
     name = tmpName;
     age = tmpAge;
     isFemale = tmpIsFemale;
