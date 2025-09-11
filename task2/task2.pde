@@ -17,19 +17,19 @@ boolean iAmHappy(){
 }*/
 
 void setup() {
-  //2.e Call all methods and assign return values to variables
+  //2.e printing the variables:
   
-  //2.b Call addNumbers method
+  //2.b 
   int sum = addNumbers(10, 5);
   println("Sum of 10 + 5 = " + sum);
   
-  // 2.c Call UpperCase method
+  // 2.c
   String greeting = "hello";
   String uppercaseText = makeUpperCase(greeting);
   println("Original: " + greeting);
   println("Uppercase: " +uppercaseText);
   
-  // 2.d Call startsUpperCase method
+  // 2.d 
   String Hello1 = "Hello";
   String hello2 = "hello";
   boolean isFirstUpper1 = startsUpperCase(Hello1);
