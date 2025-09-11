@@ -20,7 +20,7 @@ class Teacher {
   myTeacher.changeName("Tess");
   }
   // 4.c Print the teacher's name again to see if it changed
-  println(" Teacher name after change: " + myTeacher.name);
+  println("Teacher name after change: " + myTeacher.name);
 }
 
 
