@@ -1,12 +1,12 @@
-void setup(){
 //1.b lavede en metode til Hello-beskeden:
+void setup(){
 printHello();
 
 //1.c+d lavede metoden som både modtager String & int:
 printDetails("gabby", 20);
 }
 
-//to void metoder som printer fra setup:
+//2 void metoder som printer fra setup:
 void printHello(){
  println("Hello from the method");
 }
